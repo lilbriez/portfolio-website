@@ -1,0 +1,112 @@
+/*
+Colors used:
+Primary Color (Neon Pink): #FF88DB;
+Secondary Color (Charcoal): #4B4B4B;
+Secondary Color (Light Gray): #F0F0F0;
+Background Color (White): #FFFFFF;
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4B4B4B;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.00em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 300;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: #F0F0F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4B4B4B;
+}
+
+a {
+  color: #FF88DB;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #FF88DB;
+}
+a:hover {
+  color: #88BEFF;
+  text-decoration: none; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #FF88DB;
+}
+a:hover,
+a:focus {
+  color: #88BEFF;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FF88DB;
+  color: #ffffff;
+  font-weight: 400;
+  padding:8px 28px;
+  border-radius: 25px;
+  transition: 0.2s opacity;
+}
+.button:active {
+  display: inline-block;
+  background-color: #FF88DB;
+  color: #ffffff;
+  font-weight: 400;
+  padding:8px 28px;
+  border-radius: 25px;
+  transition: 0.2s opacity;
+}
+.button:visited {
+  display: inline-block;
+  background-color: #FF88DB;
+  color: #ffffff;
+  font-weight: 400;
+  padding:8px 28px;
+  border-radius: 25px;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  display: inline-block;
+  background-color: #FFB5E9;
+  color: #ffffff;
+  font-weight: 400;
+  padding:8px 28px;
+  border-radius: 25px;
+  transition: 0.2s opacity;
+}
+#colorstrip{
+    width: 100%; height: 0px;
+    border-bottom:solid 8px #FF88DB;
+}
