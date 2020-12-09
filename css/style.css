@@ -106,7 +106,11 @@ a:focus {
   border-radius: 25px;
   transition: 0.2s opacity;
 }
-#colorstrip{
-    width: 100%; height: 0px;
-    border-bottom:solid 8px #FF88DB;
+
+#colorstrip {
+border: 0;
+top: 0;
+height: 15px;
+margin-bottom: 10px;
+background: #FF88DB;
 }
