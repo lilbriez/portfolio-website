@@ -6,6 +6,10 @@ Secondary Color (Light Gray): #F0F0F0;
 Background Color (White): #FFFFFF;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
