@@ -18,42 +18,42 @@
 
   <body>
     <header>
-      <div class="container">
 <!-- navigation -->
-<a href="index.html">
-  <picture>
-    <div id="logo">
-    <source srcset="img/logo1.svg" media="(max-width:767px)">
-    <img src="img/logo1.svg" alt="logo" class="logo">
-  </picture>
-</a>
-<nav>
-  <ul>
-     <li><a href="index.html">Work</a></li>
-     <li><a href="about.html">About</a></li>
-     <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+<div class="container red topBotomBordersOut">
+  <a href="index.html" class="noHover">
+    <picture>
+      <div id="logo">
+      <source srcset="img/logo1.svg" media="(max-width:767px)">
+      <img src="img/logo1.svg" alt="logo" class="logo">
+    </picture>
+  </a>
+  <nav>
+    <ul>
+       <li><a href="index.html">Work</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </div>
-  </header>
+</header>
 <!-- end navigation -->
 
 <!-- hero -->
-<main style="max-width: 1200px;
-margin: 0 auto">
-  <div id="hero">
+<main>
+  <div id="about">
     <div class="container">
-      <h1>About</h1>
+      <h2>About</h2>
     </div>
-    <div id="work">
+      <picture>
+        <source srcset="img/Brianna-portrait.png" media="(max-width:767px)" />
+          <img src="img/Brianna-portrait.png" class="profile" alt="Brianna Profile Picture" />
+      </picture>
+  </div>
+    <div id="mystory">
       <div class="container">
-    <picture>
-      <source srcset="img/Brianna-portrait.png" media="(max-width:767px)">
-      <img src="img/Brianna-portrait.png" alt="My Photo">
-    </picture>
-      <div>
-        <div>
-          <h2>MY STORY</h2>
+        <div class="row">
+          <div class="column col-md-7 col-lg-7">
+        <h4>MY STORY</h4>
           <p>As a freelancer for over 7 years I’ve worked on a variety of design projects, from wedding invitations to branding for other small businesses to my own line of stationery and accessories for my business, Little Arrow.
           </p>
           <p>My introduction to UI was designing my brand’s ecommerce website, littlearrowstudio.com. I’m passionate about designing relatable products for users, and my background in graphic and visual design helps me create interfaces that flow seamlessly, are on-trend, and pixel perfect.
@@ -62,16 +62,14 @@ margin: 0 auto">
           </p>
           <p>I am currently looking for a UI/UX position where I can be creative, problem solve and design beautiful products that benefit people. I have a mind for brand development, fashion trends, and manufacturing knowledge. I can bring my aesthetic vision, newly learned user interface skills, visual and graphic design skills, basic web development skills, and Adobe Creative Cloud skills to any team.
           </p>
-          <p>Let’s work together! Please rech out if you think we’re a good fit. I’m always looking for fun ways to collaborate so feel free to send me a message and let’s chat!
-          </p>
+          <p>Let’s work together! Please reach out if you think we’re a good fit. I’m always looking for fun ways to collaborate so feel free to send me a message and let’s chat!
+          </p><br />
           <a href=files/resume-brianna-nicole-jackson.pdf target="_blank" class="button">DOWNLOAD MY RESUME</a>
+          <br />
+          <br />
         </div>
-
-        <div>
-          <div class="container">
-            <div class="row">
-          <h3>MY SKILLS</h3>
-          <nav>
+                <div class="column col-md-5 col-lg-5">
+          <h4>MY SKILLS</h4>
           <ul>
             <li>Native app design</li>
             <li>Logo & brand design</li>
@@ -85,12 +83,9 @@ margin: 0 auto">
             <li>Illustration</li>
             <li>Frontend development</li>
             </ul>
-        </nav>
         </div>
-
-        <div>
-          <h3>TOOLS I LOVE</h3>
-          <nav>
+        <div class="column col-md-5 col-lg-5">
+          <h4>TOOLS I LOVE</h4>
           <ul>
             <li>Sketch</li>
             <li>Figma</li>
@@ -107,10 +102,7 @@ margin: 0 auto">
             <li>Atom</li>
             <li>GitHub</li>
           </ul>
-        </nav>
         </div>
-
-      </div>
     </div>
   </div>
 </main>
@@ -118,48 +110,50 @@ margin: 0 auto">
 
 <!-- footer -->
 <footer>
-  <footer id="footer">
+  <footer id="contact">
   <div class="container">
     <h1>Introduce yourself</h1>
     <p><h2>Wanna hire me? Get to know me? Shoot me an email!</h2>
       <a href="mailto:brianna@littlearrowstudio.com" class="button">Say hi</a>
     </p>
   </div>
-
+<br />
 <!-- social media -->
-<div>
-<nav>
-    <ul>
-      <li><a href="http://www.instagram.com/lilbriez" target="_blank">
+<div class="social-links">
+<ul>
+ <li>
+   <a href="http://www.instagram.com/lilbriez" target="_blank">
       <picture>
-        <div id="social-links">
         <source srcset="files/instagram.png" media="(max-width:767px)">
         <img src="files/instagram.png" alt="social-links" class="social-links">
       </picture>
-    </a></li>
-    <li><a href="https://www.linkedin.com/in/brianna-nicole-jackson/" target="_blank">
+    </a>
+  </li>
+    <li>
+      <a href="https://www.linkedin.com/in/brianna-nicole-jackson/" target="_blank">
     <picture>
-      <div id="social-links">
       <source srcset="files/linkedin.png" media="(max-width:767px)">
       <img src="files/linkedin.png" alt="social-links" class="social-links">
     </picture>
-  </a></li>
-  <li><a href="https://www.behance.net/briannanicolejackson" target="_blank">
+  </a>
+</li>
+<li>
+  <a href="https://www.behance.net/briannanicolejackson" target="_blank">
   <picture>
-    <div id="social-links">
     <source srcset="files/behance.png" media="(max-width:767px)">
     <img src="files/behance.png" alt="social-links" class="social-links">
   </picture>
-</a></li>
-<li><a href="https://www.facebook.com/briannapie" target="_blank">
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/briannapie" target="_blank">
 <picture>
-  <div id="social-links">
   <source srcset="files/facebook.png" media="(max-width:767px)">
   <img src="files/facebook.png" alt="social-links" class="social-links">
 </picture>
-</a></li>
-      </ul>
-    </nav>
+</a>
+</li>
+</ul>
     </div>
 
     <div>
