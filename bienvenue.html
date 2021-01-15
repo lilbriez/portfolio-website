@@ -18,24 +18,27 @@
 
   <body>
     <header>
-<!-- navigation -->
-<div class="container red topBotomBordersOut">
-  <a href="index.html" class="noHover">
-    <picture>
-      <div id="logo">
-      <source srcset="img/logo1.svg" media="(max-width:767px)">
-      <img src="img/logo1.svg" alt="logo" class="logo">
-    </picture>
-  </a>
-  <nav>
-    <ul>
-       <li><a href="index.html">Work</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-</header>
+  <!-- navigation -->
+    <div class="container red topBotomBordersOut">
+            <div class="navtoggle" id="myNavtoggle">
+      <a href="index.html" class="noHover">
+        <picture>
+          <div id="logo">
+          <source srcset="img/logo1.svg" media="(max-width:767px)">
+          <img src="img/logo1.svg" alt="logo" class="logo">
+        </picture>
+      </a>
+      <nav>
+        <ul>
+    	     <li><a href="index.html">Work</a></li>
+    	     <li><a href="about.html">About</a></li>
+    	     <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+           <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><img src="img/rainbow-menu.svg" <img class="noHover"></i></a></li>
+
+        </ul>
+      </nav>
+  </div>
+  </header>
 <!-- end navigation -->
 
 <!-- hero -->
@@ -173,10 +176,13 @@ margin: 0 auto">
     </div>
 
     <div>
-    <p>© Brianna Nicole Jackson 2020</p>
+    <p>© Brianna Nicole Jackson 2021</p>
   </div>
 </footer>
 <!-- end footer -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
