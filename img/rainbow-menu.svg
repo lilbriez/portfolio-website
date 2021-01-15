@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="21px" viewBox="0 0 30 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rainbow</title>
+    <g id="Style-guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="UI-Guide" transform="translate(-417.000000, -1252.000000)" stroke="#FF88DB" stroke-width="2.17391304">
+            <g id="UI-Style-Guide" transform="translate(107.000000, 88.000000)">
+                <g id="Buttons-and-icons" transform="translate(0.000000, 1142.000000)">
+                    <g id="Icons" transform="translate(312.000000, 18.000000)">
+                        <g id="Rainbow" transform="translate(0.000000, 6.000000)">
+                            <path d="M0,0 C0.903584171,11.3333333 5.23747418,17 13.00167,17 C20.7658659,17 25.0986425,11.3430635 26,0.0291904781" id="Path-3" transform="translate(13.000000, 8.500000) scale(1, -1) translate(-13.000000, -8.500000) "></path>
+                            <path d="M4,4 C4.62555827,12.6666667 7.62594366,17 13.0011562,17 C18.3763687,17 21.3759833,12.6741074 22,4.02232213" id="Path-3-Copy" transform="translate(13.000000, 10.500000) scale(1, -1) translate(-13.000000, -10.500000) "></path>
+                            <path d="M8,8 C8.34753237,14 10.0144131,17 13.0006423,17 C15.9868715,17 17.653324,14.0051513 18,8.01545378" id="Path-3-Copy-2" transform="translate(13.000000, 12.500000) scale(1, -1) translate(-13.000000, -12.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
