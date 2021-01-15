@@ -51,31 +51,24 @@ img {
 
 header {
   background-color: #ffffff;
-  text-align: center;
-  padding: 5px 0;
+  text-align: unset;
+  padding: 10px 0 12px;
   margin: 0px;
   width: 100%;
   position: fixed;
   z-index: 9999;
-  border-bottom: 3px solid #FF88DB;
-}
-
-nav {
-  width: 100%;
-  color: #4B4B4B;
+  border-bottom: 2px solid #FF88DB;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
   margin-top: 35px;
+  margin: 0;
   color: #4B4B4B;
 }
 
-nav > ul > li {
-  display: inline-block;
-  color: #4B4B4B;
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -119,8 +112,49 @@ nav>ul>li>a:active {
   text-decoration: none;
 }
 
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 85px;
+}
+
+.navtoggle li .icon:hover::before {
+  background: none;
+  visibility: hidden;
+  text-decoration: none;
+}
+.navtoggle li .icon:hover::after {
+  background: none;
+  visibility: hidden;
+  text-decoration: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 main {
-  padding-top: 255px;
+  padding-top: 155px;
 }
 
 footer {
@@ -178,6 +212,7 @@ a:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
 
 a:hover:before {
   visibility: visible;
@@ -269,6 +304,11 @@ a:hover:after {
   display: table;
 }
 
+#menuIcon {
+    max-width: 30px;
+    margin-bottom: 8px;
+}
+
 #work .row {
   padding-bottom: 25px; border-bottom: 1px solid #F0F0F0;
 }
@@ -343,7 +383,7 @@ a:hover:after {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 180px;
 }
 
 .social-links {
@@ -445,17 +485,34 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 10px 0 13px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 64px;
+    margin-top: 70px;
   }
 
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav > ul > li {
+    display: inline-block;
+    color: #4B4B4B;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
   main {
-    padding-top: 200px;
+    padding-top: 160px;
   }
 
   .col-md-6 {
@@ -485,21 +542,39 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 10px 0 13px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 64px;
+    font-size: 19px;
+    margin-top: 60px;
   }
+
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav > ul > li {
+    display: inline-block;
+    color: #4B4B4B;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
   body {
     font-size: 20px;
   }
 
   main {
-    padding-top: 200px;
+    padding-top: 160px;
   }
 
   .col-lg-5 {
@@ -534,17 +609,35 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 10px 0 13px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 64px;
+    font-size: 19px;
+    margin-top: 65px;
   }
 
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav > ul > li {
+    display: inline-block;
+    color: #4B4B4B;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
   main {
-    padding-top: 200px;
+    padding-top: 180px;
   }
 
   .col-lg-5 {
