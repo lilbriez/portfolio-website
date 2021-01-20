@@ -512,7 +512,7 @@ Medium devices (640px and larger)
 }
 
   main {
-    padding-top: 160px;
+    padding-top: 180px;
   }
 
   .col-md-6 {
@@ -574,7 +574,7 @@ Large devices (1024px or larger)
   }
 
   main {
-    padding-top: 160px;
+    padding-top: 158px;
   }
 
   .col-lg-5 {
